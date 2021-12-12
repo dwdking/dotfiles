@@ -7,7 +7,7 @@ function doIt() {
 		--exclude "bootstrap.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
-		-avh --no-perms . ~;
+		-avh --no-perms . ~/;
 	source ~/.zshrc;
 }
 
