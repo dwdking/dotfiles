@@ -13,6 +13,8 @@ plugins=(git colored-man-pages colorize)
 
 echo "Set plugins"
 
-source $ZSH/oh-my-zsh.sh
+echo "$ZSH"
+
+source "$ZSH/oh-my-zsh.sh"
 
 echo "Ran omz script"
