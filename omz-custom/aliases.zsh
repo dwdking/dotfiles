@@ -11,3 +11,5 @@ if [ "$SPIN" ]; then
   alias dotfilesrestart='systemctl restart dotfiles.service'
   alias list-failed='systemctl list-units --failed'
 fi
+
+alias myhtop='htop --user=dan'
