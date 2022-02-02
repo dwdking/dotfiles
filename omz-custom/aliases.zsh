@@ -14,3 +14,4 @@ if [ "$SPIN" ]; then
 fi
 
 alias myhtop='htop --user=dan'
+alias gdiff='git diff --no-index'
