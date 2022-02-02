@@ -5,6 +5,6 @@
 - clean: ['~']
 
 - link:
-  ~/.zshrc: home/.zshrc
-  ~/.gitconfig: home/.gitconfig
-  ~/.gitignore_global: home/.gitignore_global
+    ~/.zshrc: home/.zshrc
+    ~/.gitconfig: home/.gitconfig
+    ~/.gitignore_global: home/.gitignore_global
