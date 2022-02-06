@@ -11,6 +11,7 @@ if [[ "$SPIN" -eq "1" && "$USER" -eq "spin" ]]; then
   alias sc-dotfiles-restart='systemctl restart dotfiles.service'
   alias sc-lf='systemctl list-units --failed'
   alias sc-ld='systemctl list-dependencies'
+  alias spinfqdn='cat /etc/spin/machine/fqdn'
 fi
 
 alias myhtop='htop --user=dan'
