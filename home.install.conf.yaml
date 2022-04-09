@@ -7,5 +7,5 @@
 
 - link:
     ~/.zshrc: home/.zshrc
-    ~/.gitconfig: home/.gitconfig
+    ~/.gitconfig: home/.home.gitconfig
     ~/.gitignore_global: home/.gitignore_global

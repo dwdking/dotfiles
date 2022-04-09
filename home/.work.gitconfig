@@ -1,0 +1,5 @@
+[user]
+    email = dan@dwdking.ca
+
+[include]
+    path = ~/dotfiles/home/.base.gitconfig
