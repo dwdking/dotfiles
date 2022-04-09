@@ -2,7 +2,12 @@
 
 set -e
 
-CONFIG="install.conf.yaml"
+if [[ "$SPIN" -eq "1" && "$USER" -eq "spin" ]]; then
+    CONFIG="work.install.conf.yaml"
+else
+    CONFIG="home.install.conf.yaml"
+fi
+
 DOTBOT_DIR="dotbot"
 
 DOTBOT_BIN="bin/dotbot"

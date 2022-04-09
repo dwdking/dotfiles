@@ -1,6 +1,6 @@
 [user]
     name = Dan King
-    email = danwd.king@shopify.com
+    signingkey = 0x9C4DABF86FE410D5
 
 [github]
     user = dwdking
@@ -53,3 +53,17 @@
     oldHighlight = "red bold 52"
     newNormal = "green bold"
     newHighlight = "green bold 22"
+[init]
+    defaultBranch = main
+[commit]
+    gpgsign = true
+[pull]
+    rebase = true
+[merge]
+    tool = bc3
+[mergetool "bc3"]
+    trustExitCode = true
+[diff]
+    tool = bc3
+[difftool "bc3"]
+    trustExitCode = true

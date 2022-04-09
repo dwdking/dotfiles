@@ -3,8 +3,8 @@ alias mv='mv -i -v'
 alias mkdir='mkdir -p -v'
 alias less='less -FSRXc'
 alias home='cd ~'
-alias zshconfig="vi ~/.zshrc"
-alias ohmyzsh="vi ~/.oh-my-zsh"
+alias zshconfig="subl ~/.zshrc"
+alias ohmyzsh="subl ~/dotfiles/ohmyzsh"
 
 if [[ "$SPIN" -eq "1" && "$USER" -eq "spin" ]]; then
   alias jc-dotfiles-log='journalctl -fxu dotfiles.service'

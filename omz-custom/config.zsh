@@ -1,0 +1,4 @@
+GPG_TTY=$(tty)
+export GPG_TTY
+KEYID=0x9C4DABF86FE410D5
+

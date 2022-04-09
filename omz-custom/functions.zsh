@@ -26,3 +26,18 @@ function extract () {
              echo "'$1' is not a valid file"
          fi
     }
+
+secret () {
+        output="${1}".$(date +%s).enc
+        gpg --encrypt --armor --output ${output} -r 0x9C4DABF86FE410D5 -r dan@dwdking.ca "${1}" && echo "${1} -> ${output}"
+}
+
+secret-shopify () {
+        output="${1}".$(date +%s).enc
+        gpg --encrypt --armor --output ${output} -r 0x9C4DABF86FE410D5 -r danwd.king@shopify.com "${1}" && echo "${1} -> ${output}"
+}
+
+reveal () {
+        output=$(echo "${1}" | rev | cut -c16- | rev)
+        gpg --decrypt --output ${output} "${1}" && echo "${1} -> ${output}"
+}
