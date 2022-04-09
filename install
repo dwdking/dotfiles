@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 set -e
 
-if [[ "$SPIN" -eq "1" && "$USER" -eq "spin" ]]; then
+if [[ ("$SPIN" -eq "1" && "$USER" == "spin") || "$HOST" == "Dans-MacBook-Pro-2.local" ]]; then
     CONFIG="work.install.conf.yaml"
 else
     CONFIG="home.install.conf.yaml"

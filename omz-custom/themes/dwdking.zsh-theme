@@ -1,5 +1,5 @@
 
-if [[ "$SPIN" -eq "1" && "$USER" -eq "spin" ]]; then
+if [[ "$SPIN" -eq "1" && "$USER" == "spin" ]]; then
   PROMPT='꩜ $fg_bold[blue][ $fg[red]%t $fg_bold[blue]] $fg_bold[blue] [ $fg[red]%n@%m:%~ $(git_prompt_info)$fg_bold[blue] ]$reset_color
  $ '
 else

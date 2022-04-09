@@ -8,6 +8,7 @@
 [core]
     excludesfile = ~/.gitignore_global
     editor = subl
+    autocrlf = input
 
 [alias]
     st = status
@@ -63,7 +64,11 @@
     tool = bc3
 [mergetool "bc3"]
     trustExitCode = true
+[mergetool]
+    prompt = true
 [diff]
     tool = bc3
 [difftool "bc3"]
     trustExitCode = true
+[difftool]
+    prompt = false

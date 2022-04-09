@@ -1,5 +1,6 @@
 [user]
-    email = dan@dwdking.ca
+    email = danwd.king@shopify.com
 
 [include]
     path = ~/dotfiles/home/.base.gitconfig
+    path = /Users/dan/.config/dev/gitconfig
