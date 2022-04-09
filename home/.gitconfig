@@ -60,3 +60,11 @@
     gpgsign = true
 [pull]
     rebase = true
+[merge]
+    tool = bc3
+[mergetool "bc3"]
+    trustExitCode = true
+[diff]
+    tool = bc3
+[difftool "bc3"]
+    trustExitCode = true
