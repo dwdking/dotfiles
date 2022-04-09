@@ -2,8 +2,10 @@
 
 set -e
 
-if [[ ("$SPIN" -eq "1" && "$USER" == "spin") || "$HOST" == "Dans-MacBook-Pro-2.local" ]]; then
+if [[ "$HOST" == "Dans-MacBook-Pro-2.local" ]]; then
     CONFIG="work.install.conf.yaml"
+elif [[ "$SPIN" -eq "1" && "$USER" == "spin" ]]; then
+    CONFIG="spin.install.conf.yaml"
 else
     CONFIG="home.install.conf.yaml"
 fi

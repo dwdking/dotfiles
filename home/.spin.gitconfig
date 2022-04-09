@@ -1,0 +1,5 @@
+[user]
+    email = danwd.king@shopify.com
+
+[include]
+    path = ~/dotfiles/home/.base.gitconfig
