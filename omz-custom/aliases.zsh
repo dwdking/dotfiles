@@ -10,7 +10,7 @@ alias editGradle='subl ~/.gradle/gradle.properties'
 alias editNpm='subl ~/.npmrc'
 alias editSsh='subl ~/.ssh/config'
 
-if [[ -a '~/src/github.com/Shopify/shopify-cli/bin/shopify' ]]; then
+if [[ -f "$HOME/src/github.com/Shopify/shopify-cli/bin/shopify" ]]; then
   alias shopdev='~/src/github.com/Shopify/shopify-cli/bin/shopify'
 fi
 

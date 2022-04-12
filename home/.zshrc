@@ -1,4 +1,5 @@
 if [[ "$SPIN" -eq "1" && "$USER" == "spin" ]]; then
+  export TZ=Canada/Eastern
   source /etc/zsh/zshrc.default.inc.zsh
 fi
 
