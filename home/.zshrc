@@ -12,7 +12,7 @@ ZSH_CUSTOM="$HOME/dotfiles/omz-custom"
 if [[ "$SPIN" -eq "1" && "$USER" == "spin" ]]; then
   plugins=(git colored-man-pages colorize gcloud ruby rust golang aliases urltools ubuntu)
 elif [[ "$HOST" == "Dans-MacBook-Pro-2.local" ]]; then
-  plugins=(git colored-man-pages colorize gcloud ruby rust golang aliases urltools macos docker brew ssh-agent sublime spin)
+  plugins=(git colored-man-pages colorize gcloud ruby rust golang aliases urltools macos docker brew ssh-agent sublime)
   FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 else
   plugins=(git colored-man-pages colorize gcloud ruby rust golang aliases urltools macos docker brew ssh-agent sublime)
