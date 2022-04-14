@@ -24,8 +24,4 @@ OHMYZSH_DIR="ohmyzsh"
 git -C "${OHMYZSH_DIR}" submodule sync --quiet --recursive
 git submodule update --init --recursive "${OHMYZSH_DIR}"
 
-echo $BASEDIR
-echo $DOTBOT_DIR
-echo $DOTBOT_BIN
-
 "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
