@@ -4,3 +4,5 @@ KEYID=0x8CCF4D624B38951Ca
 
 zstyle ':completion:*:(ssh|scp|ftp|sftp):*' hosts $hosts
 zstyle ':completion:*:(ssh|scp|ftp|sftp):*' users $users
+
+[[ -f /opt/homebrew/bin/wasm-opt ]] && export WASM_OPT=/opt/homebrew/bin/wasm-opt
