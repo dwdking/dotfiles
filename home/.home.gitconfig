@@ -3,3 +3,8 @@
 
 [include]
     path = ~/dotfiles/home/.base.gitconfig
+
+[core]
+    excludesfile = ~/.gitignore_global
+    editor = subl
+    autocrlf = input

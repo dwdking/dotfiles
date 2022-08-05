@@ -5,11 +5,6 @@
 [github]
     user = dwdking
 
-[core]
-    excludesfile = ~/.gitignore_global
-    editor = subl
-    autocrlf = input
-
 [alias]
     st = status
     sts = status -sb

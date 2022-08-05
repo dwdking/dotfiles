@@ -5,6 +5,12 @@
 [include]
     path = ~/dotfiles/home/.base.gitconfig
     path = ~/.config/dev/gitconfig
+
+[core]
+    excludesfile = ~/.gitignore_global
+    editor = subl
+    autocrlf = input
+
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
