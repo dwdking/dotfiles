@@ -20,7 +20,8 @@ if [[ "$SPIN" -eq "1" && "$USER" == "spin" ]]; then
   alias sc-lf='systemctl list-units --failed'
   alias sc-ld='systemctl list-dependencies'
   alias spinfqdn='cat /etc/spin/machine/fqdn'
-  alias shopadmin='open https://shop1.shopify.`spinfqdn`/admin'
+  alias shopadmin='open https://admin.web.`spinfqdn`/store/shop1'
+  alias shoppartners='open https://partners.`spinfqdn`/internal'
   alias shop='open https://shop1.shopify.`spinfqdn`'
 fi
 

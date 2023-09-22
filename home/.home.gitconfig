@@ -6,5 +6,5 @@
 
 [core]
     excludesfile = ~/.gitignore_global
-    editor = subl
+    editor = vi
     autocrlf = input
