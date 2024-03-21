@@ -11,7 +11,7 @@ ZSH_CUSTOM="$HOME/dotfiles/omz-custom"
 
 if [[ "$SPIN" -eq "1" && "$USER" == "spin" ]]; then
   plugins=(git colored-man-pages colorize gcloud ruby rust golang aliases urltools ubuntu)
-elif [[ "$HOST" == "Dans-MacBook-Pro-2.local" ]]; then
+elif [[ "$HOST" == "Dans-MacBook-Pro.local" ]]; then
   plugins=(git colored-man-pages colorize gcloud ruby rust golang aliases urltools macos brew ssh-agent sublime)
   FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 else
@@ -27,7 +27,7 @@ source "$ZSH/oh-my-zsh.sh"
 
 [[ -x /opt/homebrew/bin/brew ]] && eval $(/opt/homebrew/bin/brew shellenv)
 
-if [[ "$HOST" == "Dans-MacBook-Pro-2.local" ]]; then
+if [[ "$HOST" == "Dans-MacBook-Pro.local" ]]; then
   # cloudplatform: add Shopify clusters to your local kubernetes config
   # export KUBECONFIG=${KUBECONFIG:+$KUBECONFIG:}/Users/dan/.kube/config:/Users/dan/.kube/config.shopify.cloudplatform
   # for file in /Users/dan/src/github.com/Shopify/cloudplatform/workflow-utils/*.bash; do source ${file}; done

@@ -1,4 +1,4 @@
-if [[ "$HOST" == "Dans-MacBook-Pro-2.local" ]]; then
+if [[ "$HOST" == "Dans-MacBook-Pro.local" ]]; then
 _spin() {
 
   # zsh function that generates spin instance names as autocomplete options
