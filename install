@@ -2,7 +2,7 @@
 
 set -e
 
-if [[ "$HOST" == "Dans-MacBook-Pro-2.local" ]]; then
+if [[ "$HOST" == "$WORK_HOST_NAME" ]]; then
     CONFIG="work.install.conf.yaml"
 elif [[ "$SPIN" -eq "1" && "$USER" == "spin" ]]; then
     CONFIG="spin.install.conf.yaml"

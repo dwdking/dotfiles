@@ -9,6 +9,7 @@ alias gw='./gradlew'
 alias editGradle='subl ~/.gradle/gradle.properties'
 alias editNpm='subl ~/.npmrc'
 alias editSsh='subl ~/.ssh/config'
+alias gll='git log --graph --pretty=oneline --abbrev-commit'
 
 if [[ -f "$HOME/src/github.com/Shopify/shopify-cli/bin/shopify" ]]; then
   alias shopdev='~/src/github.com/Shopify/shopify-cli/bin/shopify'
